@@ -1,0 +1,29 @@
+body {
+		font-family: 'Montserrat', sans-serif;
+		background: url("thom-527-unsplash.jpg");
+		background-size: cover;
+		text-transform: uppercase;
+	}
+	.container{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	
+	.btn-primary {
+		transition: all 0.2s;
+		border-color: #e55d34;
+		text-transform: uppercase; 
+		border-radius: 20px; 
+	}
+	
+	.btn-primary:hover {
+		border-color: #e55d34;
+		cursor: pointer;
+		transform: scale(1.1);
+	}
+	
+	#mc-embedded-subscribe {
+		background-color: #e55d34
+	}
